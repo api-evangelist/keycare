@@ -1,8 +1,27 @@
 aid: keycare
-name: Keycare
-description: Keycare is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: KeyCare
+description: KeyCare is a telehealth platform that connects health systems to a national
+  network of independent, virtual-first care providers through deep Epic EHR integration.
+  Built on Epic using CareEverywhere, MyChart, Telehealth Anywhere, and Book Anywhere
+  workflows, KeyCare lets member health systems extend their own Epic instance to on-demand
+  urgent care (24/7/365 across all 50 states), behavioral health, neurology, primary
+  care, and expanding specialties such as rheumatology, cardiology, and maternal care.
+  The company serves health systems including Allina Health, Memorial Healthcare, Ochsner
+  Health, WellSpan, and Confluence Health. KeyCare is backed by 8VC. This profile has
+  no public API or developer surface at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/keycare/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/642b49345902ed26a83b3510/643f45d4e4d1730dfb9696f1_KeyCare-Full%20Logo%20-%20Purple%20WEB.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Telehealth
+- Virtual Care
+- Health Systems
+- Epic
+- EHR Integration
+- Behavioral Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/keycare-domain-security.yml
 - type: Website
   url: https://keycare.org
+- type: Support
+  url: https://keycare.org/contact
+- type: Blog
+  url: https://keycare.org/news-page
+- type: TermsOfService
+  url: https://keycare.org/terms-of-use
+- type: PrivacyPolicy
+  url: https://keycare.org/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
