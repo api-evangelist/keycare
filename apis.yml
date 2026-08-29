@@ -10,6 +10,9 @@ description: KeyCare is a telehealth platform that connects health systems to a 
   Health, WellSpan, and Confluence Health. KeyCare is backed by 8VC. This profile has
   no public API or developer surface at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/keycare/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile has no public API or developer surface at the time of enrichment."
 deliveryModel:
   model: saas
   open_source: false
